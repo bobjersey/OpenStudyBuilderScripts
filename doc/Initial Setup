@@ -1,1 +1,9 @@
+Prerequisites
+   Git - can download github desktop for windows from https://desktop.github.com/
+         and git for windows to get command line usage from : https://github.com/git-for-windows/git/releases
+   Docker - can install docker for windows from https://docs.docker.com/desktop/install/windows-install/
+   
+   
 See information here: https://github.com/KatjaGlassConsulting/OpenStudyBuilderScripts/blob/main/doc/InstallationExperiences.md
+
+
