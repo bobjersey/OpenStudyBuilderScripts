@@ -3,7 +3,7 @@ Open Study Builder scripts - work to update and configure for nonclinical studie
 
  Contents include:
  
-        Notes
+        Docs
  
                  Initial setup - notes and hints on downloading OpenStudyBuilder and its prerequisites
                  
