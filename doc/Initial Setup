@@ -4,8 +4,16 @@ Prerequisites
    Docker - can install docker for windows from https://docs.docker.com/desktop/install/windows-install/
          Then had to update wsl with from command line: 
               wsl --update
-   
-   
+   Python for windows from here: https://www.python.org/downloads/
+         Then can also install pipenv (ran the following from administrator cmd file:
+              pip install pipenv 
+    
 See information here: https://github.com/KatjaGlassConsulting/OpenStudyBuilderScripts/blob/main/doc/InstallationExperiences.md
+   
+This gets you to running the basic, but latest libraries of CT are missing, and CDISC SEND CT is missing
+    See information here to load the CTs: https://github.com/KatjaGlassConsulting/OpenStudyBuilderScripts/blob/main/doc/InstallationExpStandards.md
+    Needed this line as python version I have is newer:
+          pipenv install --python 3.10
+    Following that, 
 
 
