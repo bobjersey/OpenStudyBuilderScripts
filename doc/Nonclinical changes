@@ -1,0 +1,8 @@
+Nonclinical changes
+
+1) Code lists - load SEND CT lists
+2) Defining a study
+     a) Study title - perhaps here put a selection of Clinical vs NonClinical study
+     b) Registry identifiers page does not apply to nonclinical
+     c) Study properties - all choices, like study type, should come from SEND CT instead of clinical ST
+     d) Study population - should instead have appropriate for nonclinical: Species, Strain, Age range, Number of males, Number of females
