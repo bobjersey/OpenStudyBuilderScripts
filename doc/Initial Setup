@@ -15,5 +15,10 @@ This gets you to running the basic, but latest libraries of CT are missing, and 
     Needed this line as python version I have is newer:
           pipenv install --python 3.10
     Following that, 
+         created .env file in mdr-standards-import directory as explained and ran the download script	
+	      issues:
+             pipenv run python -m mdr_standards_import.cdisc_ct.dev_scripts.download_json_data_from_cdisc_api 
+	          (left out cdisc_data\packages at the end, as that will be default)
+
 
 
