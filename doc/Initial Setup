@@ -4,7 +4,7 @@ Prerequisites
    Docker - can install docker for windows from https://docs.docker.com/desktop/install/windows-install/
          Then had to update wsl with from command line: 
               wsl --update
-   Python for windows from here: https://www.python.org/downloads/
+   Python for windows from here: https://www.python.org/downloads/   need python 3.7!
          Then can also install pipenv (ran the following from administrator cmd file:
               pip install pipenv 
     
@@ -12,8 +12,13 @@ See information here: https://github.com/KatjaGlassConsulting/OpenStudyBuilderSc
    
 This gets you to running the basic, but latest libraries of CT are missing, and CDISC SEND CT is missing
     See information here to load the CTs: https://github.com/KatjaGlassConsulting/OpenStudyBuilderScripts/blob/main/doc/InstallationExpStandards.md
-    Needed this line as python version I have is newer:
-          pipenv install --python 3.10
+    Ensure to have python version 3.7
+	  cd data-import											
+              fixed in .env_import, port for API set to 5003, and saved as .env
+	  pipenv install --python 3.7
+	  pipenv install aiohttp											
+          pipenv run import_all											
+
     Following that, 
          created .env file in mdr-standards-import directory as explained and ran the download script
 	     (database name is from when I created it: mdrdb-2023.04.02-16.05)
