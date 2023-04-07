@@ -11,7 +11,7 @@ Open Study Builder scripts - work to update and configure for nonclinical studie
                  
                  Nonclinical changes - Sugestions for changes needed for Nonclinical/Preclinical usage
                  
-        Changed files
+        Changes files
         
                  Changes to OpenStudyBuilder github files to make it more appropriate for nonclinical - until a there is an official nonclinical option within the system
                  
