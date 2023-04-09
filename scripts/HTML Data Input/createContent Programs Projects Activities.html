@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <title>Uploading data</title>
+  <script src="./createContentScripts.js"></script>
+  <body>
+    <div>
+      <h1>Example Scripts</h1>
+      <p>Please open developer tools (in most browsers F12) to better browse the responses in the console window.</p>
+      <br/>
+      <div id="getInformationArea">
+        <button onclick="getClinicalProgram()">Get Programs</button>
+        <button onclick="getProjects()">Get Projects</button>
+        <button onclick="getStudies()">Get Studies</button>
+        <button onclick="getActivities()">Get Activities Group</button>
+        <button onclick="getSubactivities()">Get Subactivities Group</button>
+        <br/><br/>
+        <div id="resultContainer">
+        </div>
+      </div>
+      <hr/><br/>
+      <div id="areaCreateClinicalProgram_01">
+        <input type="text" id="01_clinicalProgramInput" placeholder="Clinical Program Name" value="">
+        <button onclick="createClinicalProgram()">Create Clinical Program</button>
+        <br/>
+      </div>
+      <div id="areaCreateProject_02">
+        <input type="text" id="02_clinical_programme_uid" placeholder="Clinical Program ID" value="">
+        <input type="text" id="02_project_number" placeholder="Project Number" value="">
+        <input type="text" id="02_name" placeholder="Project Name" value="">
+        <input type="text" id="02_description" placeholder="Project Description" value="">
+        <button onclick="createProject()">Create Project</button>
+        <br/>
+      </div>
+      <div id="areaActivities_04">
+        <input type="text" id="04_name" placeholder="Activity group name" value=""> 
+        <input type="text" id="04_name_sentence_case" placeholder="Name sentence case" value="">
+        <input type="text" id="04_definition" placeholder="Definition" value="">
+        <input type="text" id="04_abbreviation" placeholder="Abbreviation" value="">
+        <button onclick="createActivity()">Create Activity</button>
+        <br/>
+      </div>
+      <div id="areaSubactivities_05">
+        <input type="text" id="05_name" placeholder="Activity sub group name" value=""> 
+        <input type="text" id="05_name_sentence_case" placeholder="Name sentence case" value="">
+        <input type="text" id="05_definition" placeholder="Definition" value="">
+        <input type="text" id="05_abbreviation" placeholder="Abbreviation" value="">
+        <input type="text" id="05_activity_group" placeholder="Activity group" value="">
+        <button onclick="createSubactivity()">Create Subactivity</button>
+        <br/>
+      </div>
+    </div>
+  </body>
+</html>
