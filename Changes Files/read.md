@@ -12,11 +12,16 @@ For nonclinical usage update terms.js and change study types (used on Study Prop
                 
   For Study Population form change to ask instead for Species, Strain, Number of Males, Number of Females. Updated just for selection for species and strain, 
        still needs more work for proper saving. Involves these files:
-        C:/OpenStudyBuilder-0.3/studybuilder/src/api/controlledTerminology/terms.js
-        C:/OpenStudyBuilder-0.3/studybuilder/src/locales/en.json
-        C:/OpenStudyBuilder-0.3/studybuilder/src/components/studies/StudyPopulationSummary.vue
-        C:/OpenStudyBuilder-0.3/studybuilder/src/components/studies/StudyPopulationForm.vue
-        C:/OpenStudyBuilder-0.3/studybuilder/src/store/modules/studies/general.js 
+       
+       C:/OpenStudyBuilder-0.3/studybuilder/src/api/controlledTerminology/terms.js
+       
+       C:/OpenStudyBuilder-0.3/studybuilder/src/locales/en.json
+       
+       C:/OpenStudyBuilder-0.3/studybuilder/src/components/studies/StudyPopulationSummary.vue
+       
+       C:/OpenStudyBuilder-0.3/studybuilder/src/components/studies/StudyPopulationForm.vue
+       
+       C:/OpenStudyBuilder-0.3/studybuilder/src/store/modules/studies/general.js 
 
 
   
