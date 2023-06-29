@@ -1,3 +1,4 @@
+# Instructions 
 For nonclinical usage update terms.js and change study types (used on Study Properties page under Define Study), to pick from SEND CT instead of SDTM.
 
    After change to this file, issue these commands to update the FrontEnd to deploy this change:
@@ -23,5 +24,6 @@ For nonclinical usage update terms.js and change study types (used on Study Prop
        
        C:/OpenStudyBuilder-0.3/studybuilder/src/store/modules/studies/general.js 
 
-
-  
+# License 
+ 
+Be aware that the origin is using the GPLv3 license. See [third-party-licenses.md](./third-party-licenses.md) for more information. As the origin is GPLv3, my updates are also using GLPv3.
